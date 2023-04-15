@@ -166,6 +166,19 @@ function changeQuantity(key, quantity){
     }
     reloadCard();
 }
+const animateCards = () => {
+  const cards = document.querySelectorAll('.item item');
+  cards.forEach(card => {
+    const cardPosition = card.getBoundingClientRect().left;
+    const screenPosition = window.innerWidth / 1.2;
+    if (cardPosition < screenPosition) {
+      card.classList.add('show');
+    }
+  });
+};
+
+window.addEventListener('scroll', animateCards);
+window.addEventListener('resize', animateCards);
 
 
 
@@ -323,3 +336,4 @@ document.addEventListener(
   },
   false
 );
+

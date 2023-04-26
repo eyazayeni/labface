@@ -168,7 +168,7 @@ nav a:hover {
 }
 
 .list .item button {
-  background-color: #333333;
+  background-color: #846540;
   color: #ffffff;
   width: 100%;
   padding: 10px;
@@ -181,7 +181,7 @@ nav a:hover {
 }
 
 .list .item button:hover {
-  background-color: #1c1f25;
+  background-color: #c39c68;
 }
 
 .card {
@@ -216,7 +216,7 @@ nav a:hover {
   grid-template-columns: repeat(2, 1fr);
 }
 .card .checkOut div {
-  background-color: #e8bc0e;
+  background-color: #8ccbcd;
   width: 100%;
   height: 70px;
   display: flex;
